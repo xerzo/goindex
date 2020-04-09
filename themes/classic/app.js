@@ -40,7 +40,7 @@ function nav(path){
 // 渲染文件列表
 function list(path){
 	var content = `
-<tr><th class="file-name">Name3</th><th class="file-size">Size</th><th class="file-date-modified">Date Modified</th></tr>
+<tr><th class="file-name">Name</th><th class="file-size">Size</th><th class="file-date-modified">Date Modified</th></tr>
 	`;
 
 	if(path != '/'){
